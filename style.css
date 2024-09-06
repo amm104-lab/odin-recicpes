@@ -1,5 +1,6 @@
 *{
     background-color: #d0e5f1;   
+    box-sizing: border-box;
 }
 
 h1,
@@ -10,18 +11,39 @@ h2{
 .desimg{
     width: auto;    
     height: 500px;
+    outline: 5px solid #067394;
+    outline-style: groove;
 }
 
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2%;
 }
 
 .centertxt{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 2.5%;
+    margin: auto;
+    padding-top: 5px;
+    padding-left: 45%;
+    padding-right: 45%;
+    background-color: aliceblue;
+    outline: 5px solid #067394;
+    outline-style: groove;
 
+
+}
+
+#Home{
+    padding-left: 49%;
+    padding-right: 49%;
+    background-color: #067394;
+    color: rgb(251, 253, 255);
+    
+}
+
+#inli{
+    padding-left: 45%;
+    padding-right: 45%;
 }
